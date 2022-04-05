@@ -273,32 +273,9 @@ require get_template_directory() . '/inc/block-patterns.php';
         ?> </div> 
 
 <?php
-
     }
     
     add_shortcode('team', 'team_shotcode_function');
 
 
-
-
-	/*
-            <div id="<?php echo $i ?>" class="fancybox-hide">
-                <div class="lightbox-flex-container">
-                    <div class="lightbox-img-1"></div>
-                    <div class="lightbox-copy">
-                        <h1 class="pra-name"><?php the_title(); ?></h1>
-                        <h4 class="pra-title"><em><?php the_field('designation') ?></em></h4>
-                        <p><?php the_field('description') ?></p>
-						<p><?php echo $prev_title ?></p>
-						<p><?php echo $next_title ?></p>
-                    </div>
-                </div>
-            </div>
-            <div class="light-box-panel">
-                <a href="<?php echo "#$i" ?>" class="ari-fancybox hit" group="quiz" data-fancybox-group="fb_gallery_0_0" data-fancybox="fb_gallery_0_0"></a>
-                <div class="pra-exec-img-1" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>);"></div>
-                <h1 class="pra-name"><?php the_title(); ?></h1>
-                <h4 class="pra-title"><em><?php the_field('designation') ?></em></h4>
-                <div class="pra-read-more">READ MORE</div>
-            </div>
-			*/?>
+?>
